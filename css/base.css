@@ -1,0 +1,28 @@
+@import url("font/iosevka.css");
+
+:root {
+  --background: #262B33;
+  --text: #838F97;
+  --outline: #3E424D;
+  --panel: #2F343F;
+  --highlight: #41416A;
+}
+
+::selection {
+  background: var(--highlight);
+  color: white;
+}
+::-moz-selection {
+  background: var(--highlight);
+  color: white;
+}
+
+body {
+  font-family: "Iosevka Web";
+  background-color: var(--background);
+  color: var(--text);
+}
+
+p {
+  white-space: pre-line;
+}

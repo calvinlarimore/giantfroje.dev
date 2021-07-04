@@ -1,0 +1,39 @@
+#sidebar {
+    position: absolute;
+    left: 0;
+    width: 20vw;
+    top: 0;
+    height: 100vh;
+    font-size: 120%;
+}
+
+.category, #home {
+    margin-left: 10px;
+}
+
+.category {
+    font-weight: 700;
+}
+
+.category::first-letter {
+    font-weight: normal;
+}
+
+.file {
+    visibility: hidden;
+    display: none;
+    position: relative;
+    font-size: 85%;
+    font-weight: normal;
+    margin-left: 3px;
+}
+
+.category, .category::first-letter, .file, #home {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
